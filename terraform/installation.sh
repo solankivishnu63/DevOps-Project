@@ -51,7 +51,6 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins.gpg] \
 
 apt-get update -y
 apt-get install -y jenkins
-
 systemctl enable --now jenkins
 
 #################################
