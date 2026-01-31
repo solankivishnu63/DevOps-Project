@@ -30,7 +30,7 @@ fi
 echo "Installing kind..."
 curl -fsSL -o /usr/local/bin/kind \
   https://kind.sigs.k8s.io/dl/latest/kind-linux-amd64
-chmod +x /usr/local/bin/kind
+sudo chmod +x /usr/local/bin/kind
 
 #################################
 # Install Jenkins

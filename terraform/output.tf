@@ -7,3 +7,9 @@ output "private_ip" {
 output "public_dns" {
   value = aws_instance.dev-instance.public_dns
 }
+# -------------------------
+# Output
+# -------------------------
+output "dev_instance_public_ip" {
+  value = aws_eip.dev-eip.public_ip
+}
